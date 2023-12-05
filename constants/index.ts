@@ -92,10 +92,15 @@ export const Skill_data = [
       url:"https://github.com/JnaneshaPS"
     },
     {
-      name: "Discord",
-      src: "/discord.svg",
-      url:"https://discord.com"
+      name: "Linkdn",
+      src: "/linkdn.png",
+      url:"https://www.linkedin.com/in/jnanesha-p-s-291067289"
     },
+    {
+      name:"email",
+      src:"/email.png",
+      url:"mailto:jnaneshps5@gmail.com"
+    }
   ];
   
   
