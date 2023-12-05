@@ -23,19 +23,20 @@ const Navbar = () => {
           </span>
         </a>
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">
-              About me
-            </a>
-            <a href="#skills" className="cursor-pointer">
-              Skills
-            </a>
-            <a href="#projects" className="cursor-pointer">
-              Projects
-            </a>
-          </div>
-        </div>
+        <div className="flex flex-col items-center justify-between md:flex-row md:items-center md:justify-between w-full h-auto md:w-[500px] h-full md:mr-20">
+  <div className="flex flex-col md:flex-row items-center justify-between w-full h-auto md:w-full border border-[#7042f861] bg-[#0300145e] md:mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+    <a href="#about-me" className="cursor-pointer md:mr-4 md:mb-0 mb-2">
+      About me
+    </a>
+    <a href="#skills" className="cursor-pointer md:mr-4 md:mb-0 mb-2">
+      Skills
+    </a>
+    <a href="#projects" className="cursor-pointer">
+      Projects
+    </a>
+  </div>
+</div>
+
 
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
