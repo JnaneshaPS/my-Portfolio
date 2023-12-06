@@ -53,6 +53,7 @@ const HeroContent = () => {
         >
           I&apos;m a Full Stack Software Engineer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
+          As a full-stack web developer, I bring a passion for creating seamless digital experiences by leveraging a comprehensive skill set that spans both front-end and back-end technologies. Proficient in HTML5, CSS3, JavaScript, and frameworks like React.js, Angular, and Vue.js, I excel in designing intuitive and visually appealing user interfaces. On the back end, I've demonstrated expertise in server-side development using Express.js and Django, alongside database design and management with SQL and NoSQL databases.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
