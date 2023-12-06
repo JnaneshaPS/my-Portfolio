@@ -12,10 +12,6 @@ import Image from "next/image";
 
 const HeroContent = () => {
 
-  const handleLearnMoreClick = () => {
-        window.location.href = "./Learnmore";
-  };
-
   return (
     <motion.div
       initial="hidden"
@@ -58,7 +54,6 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          onClick={handleLearnMoreClick}
         >
           Learn More!
         </motion.a>
