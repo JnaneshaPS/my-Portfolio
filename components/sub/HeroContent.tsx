@@ -40,9 +40,7 @@ const HeroContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg my-5 max-w-[600px]"
-          style={{color:'white',fontStyle:'italic'}}
-        >
+          className="text-lg text-gray-400 my-5 max-w-[600px]">
           I&apos;m a Full Stack Software Engineer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
           As a full-stack web developer, I bring a passion for creating seamless
