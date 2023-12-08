@@ -41,9 +41,18 @@ const HeroContent = () => {
         <motion.p
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
+          style={{color:'white',fontStyle:'roboto'}}
         >
           I&apos;m a Full Stack Software Engineer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
+          As a full-stack web developer, I bring a passion for creating seamless
+          digital experiences by leveraging a comprehensive skill set that spans both
+           front-end and back-end technologies. Proficient in HTML5, CSS3, JavaScript, 
+          and frameworks like React.js,Next.js, I excel in designing intuitive
+          and visually appealing user interfaces. On the back end, I've demonstrated expertise
+          in server-side development using Node.js  alongside database design
+          and management with NoSQL databases.
+
                   </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
