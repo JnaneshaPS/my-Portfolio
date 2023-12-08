@@ -27,7 +27,7 @@ const Footer = () => {
       alt="buisness"
       width={300}
       height={300}
-      className="m-auto align-middle rounded-full walking-right px-[10px]"
+      className="m-auto align-middle rounded-full"
       />
    </div>
       <div className="mx-auto py-10 ">

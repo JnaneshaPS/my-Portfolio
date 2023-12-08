@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
-import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 
 const Projects = () => {
   return (
@@ -18,14 +17,11 @@ const Projects = () => {
       </span>
       </div>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 ">
-        <a className="cursor-pointer" href="https://github.com/JnaneshaPS/Textutils" 
-        target="_blank" rel="noopener noreferrer">
         <ProjectCard
           src="/NextWebsite.png"
           title="Ecormmerce website"
           description="This is an ecommerce website using react.js which clone of amazon website."
         />
-        </a>
         <ProjectCard
           src="/CardImage.png"
           title="TextUtils"
