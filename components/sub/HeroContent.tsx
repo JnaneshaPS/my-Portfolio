@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import { motion } from "framer-motion";
 import {
@@ -9,9 +8,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
-
 const HeroContent = () => {
-
   return (
     <motion.div
       initial="hidden"
@@ -28,7 +25,6 @@ const HeroContent = () => {
             Fullstack Developer Portfolio
           </h1>
         </motion.div>
-
         <motion.div
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
@@ -42,32 +38,20 @@ const HeroContent = () => {
             project exprience
           </span>
         </motion.div>
-
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg my-5 max-w-[600px]"
-          style={{color:'white',fontStyle:'roboto'}}
+          className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m a Full Stack Software Engineer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
-          As a full-stack web developer, I bring a passion for creating seamless
-          digital experiences by leveraging a comprehensive skill set that spans both
-           front-end and back-end technologies. Proficient in HTML5, CSS3, JavaScript, 
-          and frameworks like React.js,Next.js, I excel in designing intuitive
-          and visually appealing user interfaces. On the back end, I've demonstrated expertise
-          in server-side development using Node.js  alongside database design
-          and management with NoSQL databases.
-        
-
                   </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white rounded-lg max-w-[200px]"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           Learn More!
         </motion.a>
       </div>
-
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"

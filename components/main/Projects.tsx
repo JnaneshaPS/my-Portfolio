@@ -10,13 +10,7 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
-      <div  style={{paddingBottom:'20px',fontSize:'25px',paddingRight:'930px'}}>
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-        Projects can be seen on my github profile 
-
-      </span>
-      </div>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 ">
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/NextWebsite.png"
           title="Ecormmerce website"
@@ -36,5 +30,4 @@ const Projects = () => {
     </div>
   );
 };
-
 export default Projects;

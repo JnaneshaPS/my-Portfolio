@@ -1,7 +1,6 @@
-"use client";
-
 import React, { useState } from "react";
 import Image from "next/image";
+
 
 const makestyle = {
   className: 'cursor-pointer hover:animate-bounce',
@@ -16,20 +15,11 @@ const makestyle = {
   marginBottom: '0.8em',
   outline: 'none'
 };
-
 const Footer = () => {
 
   return (
     <footer className="border-t" style={{ borderWidth: '0px' }}>
-       <div className="walker-container">
-      <Image
-      src="/buisness.png"
-      alt="buisness"
-      width={300}
-      height={300}
-      className="m-auto align-middle rounded-full"
-      />
-   </div>
+
       <div className="mx-auto py-10 ">
         <div className="text-center text-neutral-500 align-middle" style={{ paddingTop: '15px' }}>
           <ul className="flex flex-col md:flex-row justify-center" style={{ ...makestyle, listStyleType: 'none', padding: 0 }}>
@@ -61,7 +51,6 @@ const Footer = () => {
               </ul>
             </li>
           </ul>
-
           <div className="text-center text-neutral-500" style={{ paddingTop: '10px' }}>
             Copyright © 2023. All rights reserved
           </div>
@@ -70,7 +59,4 @@ const Footer = () => {
     </footer>
   );
 };
-
 export default Footer;
-
-
