@@ -45,7 +45,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg my-5 max-w-[600px]"
           style={{color:'white',fontStyle:'roboto'}}
         >
           I&apos;m a Full Stack Software Engineer with experience in Website,
