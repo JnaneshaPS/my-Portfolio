@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Image from "next/image";
-
 
 const makestyle = {
   className: 'cursor-pointer hover:animate-bounce',
@@ -20,13 +18,15 @@ const Footer = () => {
   return (
     <footer className="border-t" style={{ borderWidth: '0px' }}>
 
-      <div className="mx-auto py-10 ">
+      <div className="mx-auto py-10">
         <div className="text-center text-neutral-500 align-middle" style={{ paddingTop: '15px' }}>
           <ul className="flex flex-col md:flex-row justify-center" style={{ ...makestyle, listStyleType: 'none', padding: 0 }}>
             <li style={{ ...makestyle, color: '#696970', marginBottom: '20px' }}>Home
               <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
                 <li style={{ color: '#969191', paddingBottom: '10px', paddingTop: '10px' }}>Techinacal Profiency</li>
-                <li style={{ color: '#969191', paddingBottom: '10px' }}>Coninous learning</li>
+                <li style={{ color: '#969191', paddingBottom: '10px' }}>
+                Coninous learning
+                  </li>
                 <li style={{ color: '#969191', paddingBottom: '10px' }}>Problem solving</li>
                 <li style={{ color: '#969191', paddingBottom: '10px' }}>Creativity</li>
                 <li style={{ color: '#969191', paddingBottom: '10px' }}>Attention to Details</li>
